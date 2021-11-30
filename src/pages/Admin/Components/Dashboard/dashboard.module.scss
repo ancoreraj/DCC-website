@@ -1,0 +1,95 @@
+.head {
+  text-align: center;
+}
+
+.dash-board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1.5em;
+  margin: 2em;
+  justify-content: space-around;
+}
+
+.content {
+  overflow: hidden;
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.crd {
+  min-width: 100px;
+  max-width: 305px;
+  min-height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #016795;
+  box-shadow: 1em 1em 1em rgb(54, 53, 53);
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-size: 1.35rem;
+  border-radius: 1em;
+  height: auto;
+  margin: 1em;
+  background-position: left center;
+  transition: all 0.5s ease-in;
+}
+
+.crd:hover {
+  color: white;
+  background: #1b2431;
+}
+
+.crd > .card-content > .head1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  margin-bottom: -15px;
+}
+
+.crd > .card-content > .head1 > h4 {
+  margin-left: 0.7em;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.crd > .card-content > .head1 > span {
+  margin-top: 2px;
+}
+
+.card-content {
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .dash-board {
+    grid-template-columns: auto;
+    margin: 1em 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .conts {
+    width: 90%;
+  }
+
+  .content {
+    overflow: hidden;
+    padding: 1rem 1.2rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1050px) {
+  .content {
+    overflow: hidden;
+    padding: 1.5rem 3.5rem;
+  }
+}
