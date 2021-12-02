@@ -1,110 +1,181 @@
 {
-  "founder": [
+  "president": [
     {
-      "name": "mehumehu mehudawn1",
-      "profile_pic": "https://cdn.mos.cms.futurecdn.net/3kZ3hc2YMB6LXiPohtyfKa.jpg",
-      "linkedin": "asd",
-      "twitter": "asdfsd",
+      "name": "Atul Pandey",
+      "profile_pic": "./images/members/president.jpg",
+      "linkedin": "https://www.linkedin.com/in/atul-pandey-446a50192",
       "github": "asdfasdfs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero",
-      "tags": []
+      "tags": ""
     }
   ],
-  "co-founder": [
+  "general-secretary": [
     {
-      "name": "mehumehu mehudawn2",
-      "profile_pic": "https://cdn.mos.cms.futurecdn.net/3kZ3hc2YMB6LXiPohtyfKa.jpg",
-      "linkedin": "asd",
-      "twitter": "asdfsd",
-      "github": "asdfasdfs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero",
-      "tags": []
+      "name": "Atithi Kumar Singh",
+      "profile_pic": "./images/members/atithi.jpg",
+      "linkedin": "https://www.linkedin.com/in/atithi-kumar-singh/",
+      "github": "https://github.com/SinghAtithi",
+      "tags": ""
     }
   ],
-  "member": [
+  "web": [
     {
-      "name": "mehumehu mehudawn11",
-      "profile_pic": "https://cdn.mos.cms.futurecdn.net/3kZ3hc2YMB6LXiPohtyfKa.jpg",
+      "name": "Ankur Raj",
+      "profile_pic": "./images/members/web1.jpg",
       "linkedin": "asd",
-      "twitter": "asdfsd",
       "github": "asdfasdfs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero",
-      "tags": [
-        "Social Media",
-        "Open Source",
-        "Core Team",
-        "Broadcast"
-      ]
+      "tags": "Lead"
     },
     {
-      "name": "mehumehu mehudawn22",
-      "profile_pic": "https://cdn.mos.cms.futurecdn.net/3kZ3hc2YMB6LXiPohtyfKa.jpg",
-      "linkedin": "asd",
-      "twitter": "asdfsd",
-      "github": "asdfasdfs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero",
-      "tags": [
-        "Social Media",
-        "Open Source",
-        "Core Team",
-        "Broadcast"
-      ]
+      "name": "Yash Agarwal",
+      "profile_pic": "./images/members/yash.jpg",
+      "linkedin": "https://www.linkedin.com/in/yash-agrawal-81930",
+      "github": "https://github.com/Ninja-archer",
+      "tags": "Lead"
     },
     {
-      "name": "mehumehu mehudawn33",
-      "profile_pic": "https://cdn.mos.cms.futurecdn.net/3kZ3hc2YMB6LXiPohtyfKa.jpg",
-      "linkedin": "asd",
-      "twitter": "asdfsd",
-      "github": "asdfasdfs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero",
-      "tags": [
-        "Social Media",
-        "Open Source",
-        "Core Team",
-        "Broadcast"
-      ]
+      "name": "Dayita Chaudhuri",
+      "profile_pic": "./images/members/dayita.jpg",
+      "linkedin": "https://www.linkedin.com/in/dayita-chaudhuri",
+      "github": "https://github.com/dayitachaudhuri",
+      "tags": "Team Member"
     },
     {
-      "name": "mehumehu mehudawn44",
-      "profile_pic": "https://cdn.mos.cms.futurecdn.net/3kZ3hc2YMB6LXiPohtyfKa.jpg",
-      "linkedin": "asd",
-      "twitter": "asdfsd",
-      "github": "asdfasdfs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero",
-      "tags": [
-        "Social Media",
-        "Open Source",
-        "Core Team",
-        "Broadcast"
-      ]
+      "name": "Subhajit Ghosh",
+      "profile_pic": "./images/members/shubhajit.jpg",
+      "linkedin": "https://www.linkedin.com/in/subhajit-ghosh-b370471bb/",
+      "github": "https://github.com/subhajitdev5",
+      "tags": "Team Member"
+    }
+  ],
+  "dsa": [
+    {
+      "name": "Shivam Gupta",
+      "profile_pic": "./images/members/shivam.jpeg",
+      "linkedin": "https://www.linkedin.com/in/shivam-gupta-b30391195",
+      "github": "https://github.com/Shivamg4149",
+      "tags": "Lead"
     },
     {
-      "name": "mehumehu mehudawn55",
-      "profile_pic": "https://cdn.mos.cms.futurecdn.net/3kZ3hc2YMB6LXiPohtyfKa.jpg",
-      "linkedin": "asd",
-      "twitter": "asdfsd",
-      "github": "asdfasdfs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero",
-      "tags": [
-        "Social Media",
-        "Open Source",
-        "Core Team",
-        "Broadcast"
-      ]
+      "name": "Mohit Kumar",
+      "profile_pic": "./images/members/mohit.jpg",
+      "linkedin": "https://www.linkedin.com/in/mohit-kumar-18284a1ba",
+      "github": "https://github.com/mohitkmr14302",
+      "tags": "Lead"
     },
     {
-      "name": "mehumehu mehudawn66",
-      "profile_pic": "https://cdn.mos.cms.futurecdn.net/3kZ3hc2YMB6LXiPohtyfKa.jpg",
-      "linkedin": "asd",
-      "twitter": "asdfsd",
+      "name": "Nilesh Kumar",
+      "profile_pic": "./images/members/nilesh.jpeg",
+      "linkedin": "https://www.linkedin.com/in/nilesh-kumar-4547241b6",
       "github": "asdfasdfs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero",
-      "tags": [
-        "Social Media",
-        "Open Source",
-        "Core Team",
-        "Broadcast"
-      ]
+      "tags": "Team Member"
+    },
+    {
+      "name": "Harsh Chugh",
+      "profile_pic": "./images/members/harsh.jpg",
+      "linkedin": "https://www.linkedin.com/in/harsh-chugh-a25a47223/",
+      "github": "https://github.com/Harsh-Chugh",
+      "tags": "Team Member"
+    }
+  ],
+  "cp": [
+    {
+      "name": "Tharun Chowdary",
+      "profile_pic": "./images/members/tharun.jpg",
+      "linkedin": "https://www.linkedin.com/in/tharun0102/",
+      "github": "https://github.com/Tharun0102",
+      "tags": "Lead"
+    },
+    {
+      "name": "Vaibhav Kumar Sinha",
+      "profile_pic": "./images/members/vaibhav.jpg",
+      "linkedin": "https://www.linkedin.com/in/vaibhav18",
+      "github": "https://github.com/devloper-vaibhav",
+      "tags": "Lead"
+    },
+    {
+      "name": "Mayur Ray",
+      "profile_pic": "./images/members/mayur.jpeg",
+      "linkedin": "https://www.linkedin.com/in/raymayur9/",
+      "github": "https://github.com/raymayur9",
+      "tags": "Team Member"
+    },
+    {
+      "name": "Satwik Kashyap",
+      "profile_pic": "./images/members/satwik.jpeg",
+      "linkedin": "https://www.linkedin.com/in/satwik-kashyap-649a50200/",
+      "github": "https://github.com/satwik1608",
+      "tags": "Team Member"
+    }
+  ],
+  "android": [
+    {
+      "name": "Arnab Suklabaidya",
+      "profile_pic": "./images/members/arnab.jpg",
+      "linkedin": "https://in.linkedin.com/in/arnav-suklabaidya-0912b91b0",
+      "github": "https://github.com/noobscript69",
+      "tags": "Lead"
+    },
+    {
+      "name": "Shikha Rai",
+      "profile_pic": "./images/members/shikha.jpg",
+      "linkedin": "https://www.linkedin.com/in/shikha-rai-",
+      "github": "/",
+      "tags": "Lead"
+    },
+    {
+      "name": "Krishna Chandak",
+      "profile_pic": "./images/members/krishna.jpg",
+      "linkedin": "https://www.linkedin.com/in/krishna-chandak-abc/",
+      "github": "https://github.com/Dalien-bit",
+      "tags": "Team Member"
+    },
+    {
+      "name": "Akshat Kumar Verma",
+      "profile_pic": "./images/members/akshat.png",
+      "linkedin": "https://www.linkedin.com/in/akshatkumarverma/",
+      "github": "https://github.com/akshatkverma",
+      "tags": "Team Member"
+    }
+  ],
+  "ml": [
+    {
+      "name": "Aditya Kumar",
+      "profile_pic": "./images/members/biprajit.jpg",
+      "linkedin": "asd",
+      "github": "asdfasdfs",
+      "tags": "Lead"
+    },
+    {
+      "name": "Biprajit Suklabaidya",
+      "profile_pic": "./images/members/biprajit.jpg",
+      "linkedin": "https://www.linkedin.com/in/biprajit-suklabaidya-9950b1208",
+      "github": "https://github.com/Biprock",
+      "tags": "Team Member"
+    }
+  ],
+  "sm": [
+    {
+      "name": "Afzal Ansari",
+      "profile_pic": "./images/members/afzal.jpg",
+      "linkedin": "https://www.linkedin.com/in/afzal-ansari-910b38200",
+      "github": "https://github.com/Afzal66677",
+      "tags": "Team Member"
+    },
+    {
+      "name": "Tanmay Shree",
+      "profile_pic": "./images/members/tanmay.jpg",
+      "linkedin": "asd",
+      "github": "asdfasdfs",
+      "tags": "Team Member"
+    }
+  ],
+  "mentor": [
+    {
+      "name": "Tanya Rajhans",
+      "profile_pic": "./images/members/tanya.jpeg",
+      "linkedin": "http://linkedin.com/in/tanyarajhans",
+      "github": "http://github.com/tanyarajhans",
+      "tags": "Mentor"
     }
   ]
 }

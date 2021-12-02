@@ -7,6 +7,12 @@
   position: relative;
 }
 
+.name-block {
+  text-align: center;
+  align-items: center;
+  size: 24px;
+}
+
 .dash {
   width: 250px;
   height: 5px;
@@ -89,8 +95,9 @@
 .row2 {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 20px;
   justify-content: center;
+  align-content: center;
   margin-bottom: 3rem;
 }
 
@@ -117,12 +124,12 @@
 }
 
 .cover {
-  object-fit: cover;
-  object-position: center;
-  width: 130px;
-  height: 130px;
-  border-radius: 100%;
-  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .card-footer {
@@ -131,8 +138,8 @@
 }
 
 .card1 {
-  display: flex;
-  min-width: 345px;
+  display: block;
+  min-width: 200px;
   max-width: 400px;
   background: white;
   box-shadow: 0 0 16px 2px #00000029;
@@ -159,7 +166,7 @@
 
 .team-social {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   visibility: hidden;
   margin-top: -14px;
 }
@@ -180,9 +187,10 @@
 }
 
 .photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -243,6 +251,7 @@
 
   #Mui-h6 {
     font-size: 1.2rem;
+    text-align: center;
   }
 
   .cover {
