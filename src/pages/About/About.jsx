@@ -307,6 +307,13 @@ export const About = (props) => {
         >
           Anroid Developement Team
         </Typography>
+        <div
+          className={
+            dark
+              ? `${style["dash"]} ${style["dash-dark"]}`
+              : `${style["dash"]} ${style["dash-light"]}`
+          }
+        ></div>
         <div className={style["row1"]}>
           {Object.keys(teamData).map((role) => {
             if (role == "android") {
@@ -373,6 +380,13 @@ export const About = (props) => {
         >
           Competitive Programming Team
         </Typography>
+        <div
+          className={
+            dark
+              ? `${style["dash"]} ${style["dash-dark"]}`
+              : `${style["dash"]} ${style["dash-light"]}`
+          }
+        ></div>
         <div className={style["row1"]}>
           {Object.keys(teamData).map((role) => {
             if (role == "cp") {
@@ -512,6 +526,13 @@ export const About = (props) => {
         >
           Machine Learning Team
         </Typography>
+        <div
+          className={
+            dark
+              ? `${style["dash"]} ${style["dash-dark"]}`
+              : `${style["dash"]} ${style["dash-light"]}`
+          }
+        ></div>
         <div className={style["row1"]}>
           {Object.keys(teamData).map((role) => {
             if (role == "ml") {
@@ -578,6 +599,13 @@ export const About = (props) => {
         >
           Special Mention
         </Typography>
+        <div
+          className={
+            dark
+              ? `${style["dash"]} ${style["dash-dark"]}`
+              : `${style["dash"]} ${style["dash-light"]}`
+          }
+        ></div>
         <div className={style["row1"]}>
           {Object.keys(teamData).map((role) => {
             if (role == "mentor") {
@@ -630,6 +658,52 @@ export const About = (props) => {
                         ></i>
                       </div>
                     </div>
+                  </div>
+                );
+              });
+            }
+            return null;
+          })}
+        </div>
+
+        <Typography
+          variant="h4"
+          id={dark ? `${style["heading-dark"]}` : `${style["heading-light"]}`}
+        >
+          Social Media Team
+        </Typography>
+        <div
+          className={
+            dark
+              ? `${style["dash"]} ${style["dash-dark"]}`
+              : `${style["dash"]} ${style["dash-light"]}`
+          }
+        ></div>
+        <div className={style["row2"]}>
+          {Object.keys(teamData).map((role) => {
+            if (role === "sm") {
+              return teamData[role].map((roleObject) => {
+                return (
+                  <div className={style["photo"]}>
+                    <img
+                      alt="profile"
+                      className={style["cover"]}
+                      src={roleObject.profile_pic}
+                    />
+                    <Typography
+                      component="h6"
+                      variant="h6"
+                      id={style["Mui-h6"]}
+                    >
+                      {roleObject.name}
+                    </Typography>
+
+                    <MDBBadge
+                      pill
+                      className={style["default"] + ` ` + style["badge"]}
+                    >
+                      {roleObject.tags}
+                    </MDBBadge>
                   </div>
                 );
               });

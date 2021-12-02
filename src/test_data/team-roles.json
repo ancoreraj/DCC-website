@@ -20,7 +20,7 @@
   "web": [
     {
       "name": "Ankur Raj",
-      "profile_pic": "./images/members/web1.jpg",
+      "profile_pic": "./images/members/self.jpg",
       "linkedin": "asd",
       "github": "asdfasdfs",
       "tags": "Lead"
@@ -94,7 +94,7 @@
     },
     {
       "name": "Mayur Ray",
-      "profile_pic": "./images/members/mayur.jpeg",
+      "profile_pic": "./images/members/mayur.jpg",
       "linkedin": "https://www.linkedin.com/in/raymayur9/",
       "github": "https://github.com/raymayur9",
       "tags": "Team Member"
@@ -140,7 +140,7 @@
   "ml": [
     {
       "name": "Aditya Kumar",
-      "profile_pic": "./images/members/biprajit.jpg",
+      "profile_pic": "./images/members/self.jpg",
       "linkedin": "asd",
       "github": "asdfasdfs",
       "tags": "Lead"
@@ -151,21 +151,35 @@
       "linkedin": "https://www.linkedin.com/in/biprajit-suklabaidya-9950b1208",
       "github": "https://github.com/Biprock",
       "tags": "Team Member"
+    },
+    {
+      "name": "Sharad Saha",
+      "profile_pic": "./images/members/self.jpg",
+      "linkedin": "https://www.linkedin.com/in/biprajit-suklabaidya-9950b1208",
+      "github": "https://github.com/Biprock",
+      "tags": "Team Member"
     }
   ],
   "sm": [
+    {
+      "name": "Tanmay Shree",
+      "profile_pic": "./images/members/self.jpg",
+      "linkedin": "asd",
+      "github": "asdfasdfs",
+      "tags": "Team Member"
+    },
+    {
+      "name": "Aman Priyadarshini",
+      "profile_pic": "./images/members/self.jpg",
+      "linkedin": "asd",
+      "github": "asdfasdfs",
+      "tags": "Team Member"
+    },
     {
       "name": "Afzal Ansari",
       "profile_pic": "./images/members/afzal.jpg",
       "linkedin": "https://www.linkedin.com/in/afzal-ansari-910b38200",
       "github": "https://github.com/Afzal66677",
-      "tags": "Team Member"
-    },
-    {
-      "name": "Tanmay Shree",
-      "profile_pic": "./images/members/tanmay.jpg",
-      "linkedin": "asd",
-      "github": "asdfasdfs",
       "tags": "Team Member"
     }
   ],
