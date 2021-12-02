@@ -128,23 +128,23 @@ export const About = (props) => {
                       </MDBBadge>
                       <br />
                       <div className={style["team-social"]}>
-                        <i
+                        <a
                           href={roleObject.linkedin}
                           className={
                             dark
                               ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
                               : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
                           }
-                        ></i>
+                        ></a>
 
-                        <i
+                        <a
                           href={roleObject.github}
                           className={
                             dark
                               ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
                               : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
                           }
-                        ></i>
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -201,23 +201,23 @@ export const About = (props) => {
                         {role.toUpperCase()}
                       </MDBBadge>
                       <div className={style["team-social"]}>
-                        <i
+                        <a
                           href={roleObject.linkedin}
                           className={
                             dark
                               ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
                               : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
                           }
-                        ></i>
+                        ></a>
 
-                        <i
+                        <a
                           href={roleObject.github}
                           className={
                             dark
                               ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
                               : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
                           }
-                        ></i>
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -274,23 +274,23 @@ export const About = (props) => {
                         {roleObject.tags}
                       </MDBBadge>
                       <div className={style["team-social"]}>
-                        <i
+                        <a
                           href={roleObject.linkedin}
                           className={
                             dark
                               ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
                               : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
                           }
-                        ></i>
+                        ></a>
 
-                        <i
+                        <a
                           href={roleObject.github}
                           className={
                             dark
                               ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
                               : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
                           }
-                        ></i>
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -347,23 +347,23 @@ export const About = (props) => {
                         {roleObject.tags}
                       </MDBBadge>
                       <div className={style["team-social"]}>
-                        <i
+                        <a
                           href={roleObject.linkedin}
                           className={
                             dark
                               ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
                               : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
                           }
-                        ></i>
+                        ></a>
 
-                        <i
+                        <a
                           href={roleObject.github}
                           className={
                             dark
                               ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
                               : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
                           }
-                        ></i>
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -420,23 +420,23 @@ export const About = (props) => {
                         {roleObject.tags}
                       </MDBBadge>
                       <div className={style["team-social"]}>
-                        <i
+                        <a
                           href={roleObject.linkedin}
                           className={
                             dark
                               ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
                               : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
                           }
-                        ></i>
+                        ></a>
 
-                        <i
+                        <a
                           href={roleObject.github}
                           className={
                             dark
                               ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
                               : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
                           }
-                        ></i>
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -493,23 +493,23 @@ export const About = (props) => {
                         {roleObject.tags}
                       </MDBBadge>
                       <div className={style["team-social"]}>
-                        <i
+                        <a
                           href={roleObject.linkedin}
                           className={
                             dark
                               ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
                               : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
                           }
-                        ></i>
+                        ></a>
 
-                        <i
+                        <a
                           href={roleObject.github}
                           className={
                             dark
                               ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
                               : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
                           }
-                        ></i>
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -566,23 +566,23 @@ export const About = (props) => {
                         {roleObject.tags}
                       </MDBBadge>
                       <div className={style["team-social"]}>
-                        <i
+                        <a
                           href={roleObject.linkedin}
                           className={
                             dark
                               ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
                               : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
                           }
-                        ></i>
+                        ></a>
 
-                        <i
+                        <a
                           href={roleObject.github}
                           className={
                             dark
                               ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
                               : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
                           }
-                        ></i>
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -639,23 +639,23 @@ export const About = (props) => {
                         {roleObject.tags}
                       </MDBBadge>
                       <div className={style["team-social"]}>
-                        <i
+                        <a
                           href={roleObject.linkedin}
                           className={
                             dark
                               ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
                               : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
                           }
-                        ></i>
+                        ></a>
 
-                        <i
+                        <a
                           href={roleObject.github}
                           className={
                             dark
                               ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
                               : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
                           }
-                        ></i>
+                        ></a>
                       </div>
                     </div>
                   </div>
