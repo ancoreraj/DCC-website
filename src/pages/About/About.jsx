@@ -85,7 +85,7 @@ export const About = (props) => {
           variant="h4"
           id={dark ? `${style["heading-dark"]}` : `${style["heading-light"]}`}
         >
-          PRESIDENT
+          PRESIDENT AND GENERAL SECRETARY
         </Typography>
         <div
           className={
@@ -96,7 +96,7 @@ export const About = (props) => {
         ></div>
         <div className={style["row1"]}>
           {Object.keys(teamData).map((role) => {
-            if (role == "president") {
+            if (role == "president" || role == "general-secretary") {
               return teamData[role].map((roleObject) => {
                 return (
                   <div
@@ -127,79 +127,6 @@ export const About = (props) => {
                         {role.toUpperCase()}
                       </MDBBadge>
                       <br />
-                      <div className={style["team-social"]}>
-                        <a
-                          href={roleObject.linkedin}
-                          className={
-                            dark
-                              ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
-                              : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
-                          }
-                        ></a>
-
-                        <a
-                          href={roleObject.github}
-                          className={
-                            dark
-                              ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
-                              : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
-                          }
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                );
-              });
-            }
-            return null;
-          })}
-        </div>
-
-        <Typography
-          variant="h4"
-          id={dark ? `${style["heading-dark"]}` : `${style["heading-light"]}`}
-        >
-          GENERAL SECRETARY
-        </Typography>
-        <div
-          className={
-            dark
-              ? `${style["dash"]} ${style["dash-dark"]}`
-              : `${style["dash"]} ${style["dash-light"]}`
-          }
-        ></div>
-        <div className={style["row1"]}>
-          {Object.keys(teamData).map((role) => {
-            if (role == "general-secretary") {
-              return teamData[role].map((roleObject) => {
-                return (
-                  <div
-                    className={
-                      dark
-                        ? `${style["card1"]} ${style["card1-dark"]}`
-                        : `${style["card1"]} ${style["card1-light"]}`
-                    }
-                  >
-                    <div className={style["photo"]}>
-                      <img
-                        alt="profile"
-                        className={style["cover"]}
-                        src={roleObject.profile_pic}
-                      />
-                      <Typography
-                        component="h6"
-                        variant="h6"
-                        id={style["Mui-h6"]}
-                      >
-                        {roleObject.name}
-                      </Typography>
-
-                      <MDBBadge
-                        pill
-                        className={style["info"] + ` ` + style["badge"]}
-                      >
-                        {role.toUpperCase()}
-                      </MDBBadge>
                       <div className={style["team-social"]}>
                         <a
                           href={roleObject.linkedin}
@@ -710,31 +637,6 @@ export const About = (props) => {
             }
             return null;
           })}
-        </div>
-
-        <Typography
-          variant="h4"
-          id={dark ? `${style["heading-dark"]}` : `${style["heading-light"]}`}
-        >
-          Open Source Contributors
-        </Typography>
-        <div
-          className={
-            dark
-              ? `${style["dash"]} ${style["dash-dark"]}`
-              : `${style["dash"]} ${style["dash-light"]}`
-          }
-        ></div>
-        <div className="container">
-          <div className={style["contributors"]}>
-            <a href="https://github.com/HITK-TECH-Community/Community-Website/graphs/contributors">
-              <img
-                style={{ maxWidth: "90vw" }}
-                src="https://contrib.rocks/image?repo=HITK-TECH-Community/Community-Website"
-                alt="contributors"
-              />
-            </a>
-          </div>
         </div>
       </div>
     </div>
