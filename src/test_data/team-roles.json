@@ -4,7 +4,7 @@
       "name": "Atul Pandey",
       "profile_pic": "./images/members/president.jpg",
       "linkedin": "https://www.linkedin.com/in/atul-pandey-446a50192",
-      "github": "asdfasdfs",
+      "github": "",
       "tags": ""
     }
   ],
@@ -20,9 +20,9 @@
   "web": [
     {
       "name": "Ankur Raj",
-      "profile_pic": "./images/members/self.jpg",
-      "linkedin": "asd",
-      "github": "asdfasdfs",
+      "profile_pic": "./images/members/ankur.jfif",
+      "linkedin": "https://www.linkedin.com/in/ankur-raj-/",
+      "github": "https://github.com/ancoreraj",
       "tags": "Lead"
     },
     {
@@ -66,7 +66,7 @@
       "name": "Nilesh Kumar",
       "profile_pic": "./images/members/nilesh.jpeg",
       "linkedin": "https://www.linkedin.com/in/nilesh-kumar-4547241b6",
-      "github": "asdfasdfs",
+      "github": "",
       "tags": "Team Member"
     },
     {
@@ -119,7 +119,7 @@
       "name": "Shikha Rai",
       "profile_pic": "./images/members/shikha.jpg",
       "linkedin": "https://www.linkedin.com/in/shikha-rai-",
-      "github": "/",
+      "github": "",
       "tags": "Lead"
     },
     {
@@ -140,9 +140,9 @@
   "ml": [
     {
       "name": "Aditya Kumar",
-      "profile_pic": "./images/members/self.jpg",
-      "linkedin": "asd",
-      "github": "asdfasdfs",
+      "profile_pic": "./images/members/aditya.jfif",
+      "linkedin": "https://www.linkedin.com/in/aditya-kumar-8529bb19a/",
+      "github": "",
       "tags": "Lead"
     },
     {
@@ -154,33 +154,40 @@
     },
     {
       "name": "Sharad Saha",
-      "profile_pic": "./images/members/self.jpg",
-      "linkedin": "https://www.linkedin.com/in/biprajit-suklabaidya-9950b1208",
-      "github": "https://github.com/Biprock",
+      "profile_pic": "./images/members/sharad.jpg",
+      "linkedin": "https://www.linkedin.com/in/sharad-saha-0906711b8/",
+      "github": "https://github.com/SharadSaha",
       "tags": "Team Member"
     }
   ],
   "sm": [
     {
       "name": "Tanmay Shree",
-      "profile_pic": "./images/members/self.jpg",
-      "linkedin": "asd",
-      "github": "asdfasdfs",
-      "tags": "Team Member"
-    },
-    {
-      "name": "Aman Priyadarshini",
-      "profile_pic": "./images/members/self.jpg",
-      "linkedin": "asd",
-      "github": "asdfasdfs",
-      "tags": "Team Member"
+      "profile_pic": "./images/members/tanmay.jpg",
+      "linkedin": "https://www.linkedin.com/in/tanmayshree/",
+      "github": "https://github.com/tanmayshree",
+      "tags": "Social Media"
     },
     {
       "name": "Afzal Ansari",
       "profile_pic": "./images/members/afzal.jpg",
       "linkedin": "https://www.linkedin.com/in/afzal-ansari-910b38200",
       "github": "https://github.com/Afzal66677",
-      "tags": "Team Member"
+      "tags": "Social Media"
+    },
+    {
+      "name": "Aman Priyadarshini",
+      "profile_pic": "./images/members/aman.png",
+      "linkedin": "https://www.linkedin.com/in/aman-priyadarshi-248908204/",
+      "github": "https://github.com/Aman9955",
+      "tags": "Graphic Design"
+    },
+    {
+      "name": "Rishita Bose",
+      "profile_pic": "./images/members/rishita.jpg",
+      "linkedin": "https://www.linkedin.com/in/rishita-bose-9040a1202",
+      "github": "https://github.com/rishita2023",
+      "tags": "Graphic Design"
     }
   ],
   "mentor": [

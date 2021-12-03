@@ -597,7 +597,7 @@ export const About = (props) => {
           variant="h4"
           id={dark ? `${style["heading-dark"]}` : `${style["heading-light"]}`}
         >
-          Social Media Team
+          Social Media and Graphic Design Team
         </Typography>
         <div
           className={
@@ -606,31 +606,58 @@ export const About = (props) => {
               : `${style["dash"]} ${style["dash-light"]}`
           }
         ></div>
-        <div className={style["row2"]}>
+        <div className={style["row1"]}>
           {Object.keys(teamData).map((role) => {
-            if (role === "sm") {
+            if (role == "sm") {
               return teamData[role].map((roleObject) => {
                 return (
-                  <div className={style["photo"]}>
-                    <img
-                      alt="profile"
-                      className={style["cover"]}
-                      src={roleObject.profile_pic}
-                    />
-                    <Typography
-                      component="h6"
-                      variant="h6"
-                      id={style["Mui-h6"]}
-                    >
-                      {roleObject.name}
-                    </Typography>
+                  <div
+                    className={
+                      dark
+                        ? `${style["card1"]} ${style["card1-dark"]}`
+                        : `${style["card1"]} ${style["card1-light"]}`
+                    }
+                  >
+                    <div className={style["photo"]}>
+                      <img
+                        alt="profile"
+                        className={style["cover"]}
+                        src={roleObject.profile_pic}
+                      />
+                      <Typography
+                        component="h6"
+                        variant="h6"
+                        id={style["Mui-h6"]}
+                      >
+                        {roleObject.name}
+                      </Typography>
 
-                    <MDBBadge
-                      pill
-                      className={style["default"] + ` ` + style["badge"]}
-                    >
-                      {roleObject.tags}
-                    </MDBBadge>
+                      <MDBBadge
+                        pill
+                        className={style["default"] + ` ` + style["badge"]}
+                      >
+                        {roleObject.tags}
+                      </MDBBadge>
+                      <div className={style["team-social"]}>
+                        <a
+                          href={roleObject.linkedin}
+                          className={
+                            dark
+                              ? `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-dark`
+                              : `${style["card-footer"]} +  fab fa-linkedin fa-2x in in-light`
+                          }
+                        ></a>
+
+                        <a
+                          href={roleObject.github}
+                          className={
+                            dark
+                              ? `${style["card-footer"]} fab fa-github-square fa-github-square-dark fa-2x`
+                              : `${style["card-footer"]} fab fa-github-square fa-github-square-light fa-2x`
+                          }
+                        ></a>
+                      </div>
+                    </div>
                   </div>
                 );
               });
