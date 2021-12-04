@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.hoverr {
+  transition: transform 0.3s;
+}
+
+.hoverr:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.hoverrr {
+  transition: transform 0.3s;
+
+  transform: scale(1);
+}
+
+.hoverrr:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

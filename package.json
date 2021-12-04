@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
     "bootstrap-social": "^5.1.1",
+    "daisyui": "^1.16.2",
     "font-awesome": "^4.7.0",
     "joi-browser": "^13.4.0",
     "jwt-decode": "^3.1.2",
@@ -77,8 +78,11 @@
     ]
   },
   "devDependencies": {
+    "autoprefixer": "^9.8.8",
     "husky": "^4.3.6",
     "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1"
+    "postcss": "^7.0.39",
+    "prettier": "^2.2.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
