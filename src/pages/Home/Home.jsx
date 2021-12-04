@@ -14,6 +14,7 @@ export const Home = (props) => {
         dark ? `${styles["home"]} ${styles["dark"]}` : `${styles["home"]}`
       }
     >
+    <h1>Hello</h1>
       <Overview theme={dark} />
       <Motive theme={dark} />
       <Carousel theme={dark} />
