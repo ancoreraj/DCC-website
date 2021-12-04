@@ -3,6 +3,7 @@ import styles from "tailwindcss/dist/tailwind.min.css";
 import "./stlyess.css";
 import DccParts from "../Carousel/DccParts";
 import Motivee from "./Motivee";
+import Joinus from "./Joinus";
 
 export const Overview = (props) => {
   let dark = props.theme;
@@ -122,7 +123,7 @@ export const Overview = (props) => {
           md:text-left
         "
               >
-                Main
+                DCC&nbsp;- &nbsp;
                 <span
                   className="
             bg-clip-text
@@ -133,9 +134,8 @@ export const Overview = (props) => {
             to-purple-500
           "
                 >
-                  Hero Message
+                  One stop Coding destination &nbsp;
                 </span>
-                to sell yourself!
               </h1>
               <p
                 className="
@@ -147,8 +147,7 @@ export const Overview = (props) => {
           md:text-left
         "
               >
-                Sub-hero message, not too long and not too short. Make it just
-                right!
+                An initiative of NIT Agartala to bring like-minded Coders and Developers together
               </p>
               <form
                 className="
@@ -242,7 +241,7 @@ export const Overview = (props) => {
           </div>
         </div>
         <Motivee />
-        <DccParts />
+        <Joinus />
       </div>
     </div>
   );

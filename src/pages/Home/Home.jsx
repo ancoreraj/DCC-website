@@ -15,8 +15,6 @@ export const Home = (props) => {
       }
     >
       <Overview theme />
-      <Carousel theme={dark} />
-      <JoinUs theme={dark} />
     </div>
   );
 };
