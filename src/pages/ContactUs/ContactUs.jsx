@@ -104,7 +104,7 @@ export const ContactUs = (props) => {
                 <div className={style["inside-card"]}>
                   <p style={{ textAlign: "center" }}>
                     We have heard you! 😄 <br />
-                    We will get back to you very soon if required!
+                    We will get back to you very soon...
                   </p>
                 </div>
               </div>
@@ -125,7 +125,7 @@ export const ContactUs = (props) => {
                       : `${style["contact-header-text"]} ${style["contact-header-text-light"]}`
                   }
                 >
-                  Get In Touch
+                  Get in Touch with us
                 </h1>
                 <div className={style["inside-contact"]}>
                   <form onSubmit={handleSubmit}>
@@ -142,7 +142,7 @@ export const ContactUs = (props) => {
                         name="name"
                         id="txt_name"
                         type="text"
-                        placeholder="Your Name"
+                        placeholder="Enter Your Name"
                         onChange={handleChange}
                       />
                       <i className="fas fa-user"></i>
@@ -166,7 +166,7 @@ export const ContactUs = (props) => {
                         autoComplete="off"
                         id="txt_email"
                         type="text"
-                        placeholder="Your Email"
+                        placeholder="Enter Your Email"
                         onChange={handleChange}
                       />
                       <i className="fas fa-envelope-open-text"></i>
@@ -215,7 +215,7 @@ export const ContactUs = (props) => {
                         id="txt_message"
                         rows="4"
                         cols="20"
-                        placeholder="Your Message"
+                        placeholder="Type Your Message"
                         onChange={handleChange}
                       ></textarea>
                       <i className="fas fa-comment-dots"></i>
@@ -227,7 +227,7 @@ export const ContactUs = (props) => {
                         <div>&nbsp; &nbsp;</div>
                       )}
                     </div>
-                    <div className={style["text-xs-center"]}>
+                    {/* <div className={style["text-xs-center"]}>
                       <div
                         className={style["g-recaptcha"]}
                         data-sitekey="my-public-key"
@@ -239,12 +239,12 @@ export const ContactUs = (props) => {
                           verifyCallback={verifyCallback}
                         />
                       </div>
-                    </div>
+                    </div> */}
                     <br></br>
                     <div className={style["submit-btn"]}>
                       <Button2
                         className={style["submit-btn-text"]}
-                        label="Let's Talk!"
+                        label="Submit"
                         type="submit"
                       />
                     </div>
