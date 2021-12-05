@@ -28,7 +28,7 @@ export const Overview = (props) => {
                 className="
           flex
           items-center
-          text-indigo-400
+          text-pink-600
           no-underline
           hover:no-underline
           font-bold
@@ -91,12 +91,11 @@ export const Overview = (props) => {
           <div
             className="
       container
-      pt-24
       md:pt-36
       mx-auto
       flex flex-wrap flex-col
       md:flex-row
-      items-center
+    //   items-center
     "
           >
             {/*Left Col*/}
@@ -105,6 +104,7 @@ export const Overview = (props) => {
         flex flex-col
         w-full
         xl:w-2/5
+        lg:-mt-52 
         justify-center
         lg:items-start
         overflow-y-hidden
@@ -218,13 +218,15 @@ export const Overview = (props) => {
               </form>
             </div>
             {/*Right Col*/}
-            <div className="w-full xl:w-3/5 pt-12 overflow-hidden rounded-lg">
+            <div className="w-full xl:w-3/5 pt-12 rounded-lg lg:-mt-20">
               <img
                 className="
           mx-auto
-          w-70
+          w-4/5
+
           md:w-4/5
           transform
+          overflow-hidden
           -rotate-6
           transition
           hover:scale-105
@@ -232,6 +234,7 @@ export const Overview = (props) => {
           ease-in-out
           hover:rotate-6
           rounded-lg
+          zzz
         "
                 src="macbook.svg"
               />
