@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
 import { Toggle } from "../util/Toggle/index";
 import style from "./navbar.module.scss";
 
@@ -15,7 +14,7 @@ export const Navbar = (props) => {
       <nav className={dark ? style["navbar-div-dark"] : style["navbar-div"]}>
         <NavLink to="/" className={style["navbar-logo"]}>
           <img
-            src="./community-logo.png"
+            src="./DCC.jpg"
             alt="logo"
             width="45px"
             height="45px"

@@ -1,20 +1,19 @@
 import React, { useState } from "react";
 import { Button2 } from "../../components/util/Button/index";
-import Recaptcha from "react-recaptcha";
 import style from "./ContactUs.module.scss";
 import Joi from "joi-browser";
 
 export const ContactUs = (props) => {
-  const [isverfied, verified] = useState(false);
-  const recaptchaLoaded = () => {
-    console.log("Recaptcha loaded");
-  };
+  // const [isverfied, verified] = useState(false);
+  // const recaptchaLoaded = () => {
+  //   console.log("Recaptcha loaded");
+  // };
 
-  const verifyCallback = (response) => {
-    if (response) {
-      verified(true);
-    }
-  };
+  // const verifyCallback = (response) => {
+  //   if (response) {
+  //     verified(true);
+  //   }
+  // };
 
   let dark = props.theme;
   const [formData, setFormData] = useState({

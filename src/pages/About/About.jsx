@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { MDBBadge } from "mdbreact";
 import teamData from "../../test_data/team-roles.json";
@@ -21,7 +20,6 @@ const useStyles = makeStyles(() => ({
 export const About = (props) => {
   let dark = props.theme;
 
-  const classes = useStyles();
   return (
     <div className={dark ? `${style["dark"]}` : ``}>
       <div className={style["about-section"]}>
@@ -96,7 +94,7 @@ export const About = (props) => {
         ></div>
         <div className={style["row1"]}>
           {Object.keys(teamData).map((role) => {
-            if (role == "president" || role == "general-secretary") {
+            if (role === "president" || role === "general-secretary") {
               return teamData[role].map((roleObject) => {
                 return (
                   <div

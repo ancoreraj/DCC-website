@@ -9,7 +9,7 @@ export function ForgotPassword(props) {
   const [status, setStatus] = useState("");
   const [submited, setSubmited] = useState(false);
   let dark = props.theme;
-
+  setStatus('ankur')
   const [formdata, setFormData] = useState({
     email: "",
   });

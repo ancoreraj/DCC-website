@@ -1,12 +1,36 @@
 import React from "react";
-import styles from "tailwindcss/dist/tailwind.min.css";
+import { useState } from "react";
+import axios from "axios";
 import "./stlyess.css";
 // import DccParts from "../Carousel/DccParts";
 import Motivee from "./Motivee";
 import Joinus from "./Joinus";
 
+import { END_POINT } from "../../../../config/api";
+
 export const Overview = (props) => {
-  let dark = props.theme;
+  const [email, setEmail] = useState('')
+
+  const handleSubmit = () => {
+    let data = {
+      email
+    }
+    console.log(email)
+    console.log(data);
+    axios({
+      method: 'post',
+      data: data,
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      url: `${END_POINT}/api/notification/subscribe`
+    }).then(result => {
+      alert(result.data.message);
+    })
+      .catch(err => {
+        console.log(err)
+      })
+  }
 
   return (
     <div>
@@ -124,6 +148,8 @@ export const Overview = (props) => {
                     id="emailaddress"
                     type="text"
                     placeholder="you@somewhere.com"
+                    onChange={e => setEmail(e.target.value)}
+                    required
                   />
                 </div>
                 <div className="flex items-center justify-between pt-4">
@@ -146,6 +172,7 @@ export const Overview = (props) => {
               ease-in-out
             "
                     type="button"
+                    onClick={() => handleSubmit()}
                   >
                     Sign Up
                   </button>
@@ -172,6 +199,7 @@ export const Overview = (props) => {
           zzz
         "
                 src="macbook.svg"
+                alt="IMG"
               />
             </div>
 

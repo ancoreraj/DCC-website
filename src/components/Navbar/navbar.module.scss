@@ -48,13 +48,13 @@
   text-decoration: none;
 }
 
-.navbar-logo img:hover {
-  filter: hue-rotate(130deg) contrast(180%);
-}
+// .navbar-logo img:hover {
+//   filter: hue-rotate(130deg) contrast(180%);
+// }
 
-.navbar-logo-dark img:hover {
-  filter: brightness(1000%);
-}
+// .navbar-logo-dark img:hover {
+//   filter: brightness(1000%);
+// }
 
 .nav-menu {
   display: flex;
@@ -103,11 +103,12 @@
   border-radius: 4px;
   outline: none;
   border: 2px solid #fc0254;
-  font-size: 16.5px;
+  font-size: 18.5px;
   color: #fff;
   cursor: pointer;
   background-color: #fc0254;
   transition: all 0.3s ease-out;
+  visibility: hidden;
 }
 
 .nav-admin-button-dark {
@@ -115,11 +116,13 @@
   border-radius: 4px;
   outline: none;
   border: 2px solid #69a9dd;
-  font-size: 16.5px;
+  font-size: 18.5px;
   color: #171717;
   cursor: pointer;
   background-color: #69a9dd;
   transition: all 0.3s ease-out;
+  visibility: hidden;
+
 }
 
 .nav-admin-button:hover {

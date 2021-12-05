@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import style from "./all-broadcasts.module.scss";
 import styles from "../../../Home/components/Motive/motive.module.scss";
-import dataa from "../../../../test_data/broadcast_text.json";
 import { InputBase } from "@material-ui/core";
 import { Search } from "@material-ui/icons";
 import { DropMenu } from "../../../../components/util/DropMenu/index.js";
@@ -18,6 +17,7 @@ export function AllBroadcasts(props) {
   const [month, setMonth] = useState("");
   const [year, setYear] = useState("");
   const [page, setPage] = useState("");
+  setPage("a")
 
   const dark = props.theme;
 

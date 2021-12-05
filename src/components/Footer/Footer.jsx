@@ -57,8 +57,6 @@ export const Footer = (props) => {
       setEmail("");
     }
   };
-  var date = new Date();
-  var year = date.getFullYear();
   return (
     <React.Fragment>
       <footer
@@ -201,7 +199,7 @@ export const Footer = (props) => {
               <ul className={dark ? style["social-dark"] : style["social"]}>
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/hitk-tech-community"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -220,7 +218,7 @@ export const Footer = (props) => {
                 </li>
                 <li>
                   <a
-                    href="https://hitkteckcommunity.slack.com/join/shared_invite/zt-njgae7ki-Xn1y4Nmc_bwqwU~tN52vrg"
+                    href="https://discord.com/invite/nNyvhAcEbW"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -239,7 +237,7 @@ export const Footer = (props) => {
                 </li>
                 <li>
                   <a
-                    href="mailto:hitktechcommunity@gmail.com"
+                    href="mailto:ankur.jar123@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -258,7 +256,7 @@ export const Footer = (props) => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/HITK-TECH-Community/"
+                    href="https://www.instagram.com/dccnita/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
