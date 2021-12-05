@@ -72,11 +72,11 @@ export const Footer = (props) => {
           <h1
             className={dark ? style["footer-logo-dark"] : style["footer-logo"]}
           >
-            HITK Tech Community
+            Developers & Coders Club NITA
           </h1>
           <address>
-            <i className="fas fa-map-marker-alt"></i> Heritage Institute of
-            Technology, Chowbaga Road, Kolkata, West Bengal - 700107, India
+            <i className="fas fa-map-marker-alt"></i> National Institute of
+            Technology, Agartala, Jirania, Tripura - 799046
             <br />
           </address>
           {submited ? (
@@ -196,25 +196,7 @@ export const Footer = (props) => {
             </ul>
           </li>
 
-          <li className={style["nav-item"]}>
-            <h2 className={dark ? style["nav-title-dark"] : style["nav-title"]}>
-              Other
-            </h2>
 
-            <ul className={dark ? style["nav-ul-dark"] : style["nav-ul"]}>
-              <li>
-                <Link to="/privacy-policy">Privacy Policy</Link>
-              </li>
-
-              <li>
-                <Link to="/terms">Terms of Use</Link>
-              </li>
-
-              <li>
-                <Link to="/get-involved">Get Involved</Link>
-              </li>
-            </ul>
-          </li>
           <li>
             <h2 className={dark ? style["nav-title-dark"] : style["nav-title"]}>
               Social
@@ -256,7 +238,7 @@ export const Footer = (props) => {
                       <span></span>
                       <div className={style["inner"]}>
                         <i
-                          className={`fab fa-slack fa-lg ${style["fa-slack-own"]}`}
+                          className={`fab fa-discord fa-lg ${style["fa-slack-own"]}`}
                         ></i>
                       </div>
                     </div>
@@ -294,7 +276,7 @@ export const Footer = (props) => {
                       <span></span>
                       <div className={style["inner"]}>
                         <i
-                          className={`fab fa-github fa-lg ${style["fa-github-own"]}`}
+                          className={`fab fa-instagram fa-lg ${style["fa-github-own"]}`}
                         ></i>
                       </div>
                     </div>
@@ -321,23 +303,12 @@ export const Footer = (props) => {
             <p>
               Made with{" "}
               <i className="fas fa-heart" style={{ color: "#DB3328" }}></i> by
-              HITK Tech Community
+              DCC NITA
             </p>
           </div>
         </div>
       </footer>
 
-      <div
-        className={
-          dark
-            ? `${style["cprt-text"]} ${style["cprt-text-dark"]}`
-            : `${style["cprt-text"]}`
-        }
-      >
-        <p className={`${style["cprt"]} py-2`}>
-          Copyright © {year} HITK Tech Community
-        </p>
-      </div>
     </React.Fragment>
   );
 };
