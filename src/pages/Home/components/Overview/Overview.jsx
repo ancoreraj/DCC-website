@@ -76,11 +76,13 @@ export const Overview = (props) => {
           text-base
           md:text-2xl
           mb-8
+          text-gray-400
           text-center
           md:text-left
         "
               >
-                An initiative of NIT Agartala to bring like-minded Coders and Developers together
+                An initiative of NIT Agartala to bring like-minded Coders and
+                Developers together
               </p>
               <form
                 className="
