@@ -33,6 +33,13 @@
       "tags": "Lead"
     },
     {
+      "name": "Rahul Tiwari",
+      "profile_pic": "./images/members/rahul.jpg",
+      "linkedin": "https://www.linkedin.com/in/rahultwr/",
+      "github": "https://github.com/Ankur-9598",
+      "tags": "Lead"
+    },
+    {
       "name": "Dayita Chaudhuri",
       "profile_pic": "./images/members/dayita.jpg",
       "linkedin": "https://www.linkedin.com/in/dayita-chaudhuri",
@@ -191,6 +198,13 @@
     }
   ],
   "mentor": [
+    {
+      "name": "Aditya Mani Tiwari",
+      "profile_pic": "./images/members/adityaBhaiya.jpg",
+      "linkedin": "https://www.linkedin.com/in/aditya-mani-tiwari/",
+      "github": "https://github.com/router-hub",
+      "tags": "Mentor"
+    },
     {
       "name": "Tanya Rajhans",
       "profile_pic": "./images/members/tanya.jpeg",

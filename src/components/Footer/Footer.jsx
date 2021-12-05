@@ -178,21 +178,14 @@ export const Footer = (props) => {
                 <Link to="/about-us">About</Link>
               </li>
 
-              <li>
-                <Link to="/broadcasts">Broadcasts</Link>
-              </li>
 
-              <li>
-                <Link to="/resources">Resources</Link>
-              </li>
+
+            
 
               <li>
                 <Link to="/contact-us">Contact</Link>
               </li>
 
-              <li>
-                <Link to="/faqs">FAQs</Link>
-              </li>
             </ul>
           </li>
 
