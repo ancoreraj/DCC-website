@@ -75,14 +75,16 @@
 .nav-item {
   display: flex;
   margin: 5px;
-  align-items: center;
+  align-items: flex-start;
+  padding: 5px;
   height: 60px;
 }
 
 .nav-item-dark {
   display: flex;
   margin: 5px;
-  align-items: center;
+  align-items: flex-start;
+  padding: 5px;
   height: 60px;
 }
 
@@ -122,7 +124,6 @@
   background-color: #69a9dd;
   transition: all 0.3s ease-out;
   visibility: hidden;
-
 }
 
 .nav-admin-button:hover {

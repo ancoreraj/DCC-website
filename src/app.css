@@ -1,5 +1,5 @@
 /* Golbal CSS File */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 :root {
   --primary-color: #081624;
   --secondary-color: #0a183d;
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Source Code Pro', monospace !important;
+  font-family: "Source Code Pro", monospace !important;
   font-size: 1.1rem;
   background-color: whitesmoke;
   color: #000;
@@ -65,6 +65,14 @@ body {
     overflow: hidden;
     padding: 1rem 1.2rem;
   }
+}
+
+.discord-logo {
+  transition: transform 0.7s ease-in-out;
+}
+
+.discord-logo:hover {
+  transform: rotate(360deg);
 }
 
 /* Media Query for Medium Size Devices */
