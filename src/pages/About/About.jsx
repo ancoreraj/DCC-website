@@ -22,19 +22,20 @@ export const About = (props) => {
 
   return (
     <div className={dark ? `${style["dark"]}` : ``}>
-      <div className={style["about-section"]}>
+      {/* <div className={style["about-section"]}>
         <img
           src="./images/about_us_cover.png"
           alt=""
           className={style["aboutus-img"]}
         />
-      </div>
+      </div> */}
       <div
         className={
           dark
             ? `${style["about"]} ${style["about-dark"]}`
             : `${style["about"]} ${style["about-light"]}`
         }
+        style={{ paddingBottom: "10%" }}
       >
         <div className="row">
           <div className="col-lg-5">
@@ -49,8 +50,16 @@ export const About = (props) => {
             <h4 className={dark ? `${style["text-dark"]}` : ``}>
               By Students, For Students
             </h4>
+            <img
+              src="./images/about_us_new.png"
+              alt=""
+              className={style["aboutus-img"]}
+            />
           </div>
-          <div className={dark ? `col-lg-7 ${style["text-dark"]}` : `col-lg-7`}>
+          <div
+            className={dark ? `col-lg-7 ${style["text-dark"]}` : `col-lg-7`}
+            style={{ paddingTop: "10%" }}
+          >
             <p>
               The Developer's and Coder's Club of NIT Agartala is a platform
               built by the students of the institute with the main intent of

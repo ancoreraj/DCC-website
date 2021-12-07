@@ -125,7 +125,7 @@ export const Footer = (props) => {
                         ? `${style["input-field-footer"]} ${style["input-field-footer-dark"]}`
                         : `${style["input-field-footer"]}`
                     }
-                    placeholder="Email Id"
+                    placeholder="Email Address"
                     onChange={handleEmailChange}
                     value={email}
                   />
@@ -176,17 +176,11 @@ export const Footer = (props) => {
                 <Link to="/about-us">About</Link>
               </li>
 
-
-
-            
-
               <li>
                 <Link to="/contact-us">Contact</Link>
               </li>
-
             </ul>
           </li>
-
 
           <li>
             <h2 className={dark ? style["nav-title-dark"] : style["nav-title"]}>
@@ -198,11 +192,7 @@ export const Footer = (props) => {
             <div className={`col ${style["col"]}`}>
               <ul className={dark ? style["social-dark"] : style["social"]}>
                 <li>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
                     <div className={style["outer"]}>
                       <span></span>
                       <span></span>
@@ -299,7 +289,6 @@ export const Footer = (props) => {
           </div>
         </div>
       </footer>
-
     </React.Fragment>
   );
 };

@@ -113,7 +113,7 @@
 
 #heading-light {
   font-size: 2.4rem;
-  color: #000;
+  color: #fff;
 }
 
 .contributors {
@@ -204,10 +204,14 @@
 
 .badge {
   margin: 6px 0;
+  border: none !important;
 }
 
 .default {
-  background-color: #2bbbad;
+  background-color: #69a7d8;
+  color: #000 !important;
+  text-transform: uppercase !important;
+  border: none !important;
 }
 
 .primary {
@@ -229,7 +233,7 @@
 }
 
 @media screen and (max-width: 720px) {
-  .team-social{
+  .team-social {
     margin-top: -65px;
     visibility: visible;
   }
@@ -255,9 +259,9 @@
     transform: none;
   }
 
-  #Mui-h6 {
-    font-size: 1.4rem;
-    font-weight: 500;
+  .Mui-h6 {
+    font-size: 2rem;
+    font-weight: 600 !important;
     // text-align: center;
   }
 
@@ -274,6 +278,7 @@
 
   .badge {
     padding: 3px;
+    border: none !important;
   }
 
   .badge-container {
