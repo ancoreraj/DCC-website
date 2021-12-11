@@ -66,8 +66,7 @@ export const About = (props) => {
               promoting a vibrant tech culture in the institute and increasing
               awareness towards the plethora of opportunities. We aim to create
               a community of thinkers and innovators who shall someday represent
-              the institute and the field, and bring about positive
-              developement.
+              the institute and the field, and bring about positive development.
             </p>
             <p>
               We at DCC believe that every person has the capability to learn,
@@ -166,7 +165,7 @@ export const About = (props) => {
           variant="h4"
           id={dark ? `${style["heading-dark"]}` : `${style["heading-light"]}`}
         >
-          Web Developement Team
+          Web Development Team
         </Typography>
         <div
           className={
@@ -239,7 +238,7 @@ export const About = (props) => {
           variant="h4"
           id={dark ? `${style["heading-dark"]}` : `${style["heading-light"]}`}
         >
-          Anroid Developement Team
+          Android Development Team
         </Typography>
         <div
           className={
